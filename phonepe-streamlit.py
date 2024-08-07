@@ -470,8 +470,6 @@ def ques10():
 
 #Streamlit Part
 
-st.connection("mydb", type="postgres", max_entries=None, ttl=None, **kwargs)
-
 st.set_page_config(layout= "wide")
 st.title("PhonePe Pulse")
 
