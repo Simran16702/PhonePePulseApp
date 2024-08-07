@@ -470,6 +470,12 @@ def ques10():
 
 #Streamlit Part
 
+conn = st.connection(
+    "mydb",
+    type="postgres",
+    url="http://localhost:8501/"
+)
+
 st.set_page_config(layout= "wide")
 st.title("PhonePe Pulse")
 
